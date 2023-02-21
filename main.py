@@ -24,7 +24,7 @@ temp = unformated_data["main"]["temp"]
 print(f"The current temp is: {temp}")
 
 temp_max = unformated_data["main"]["temp_max"]
-print(f"The max temp is: {temp_max}")
+print(f"The maximum temp is: {temp_max}")
 
  #Display 3 Day Forecast From Wttr.In
 def report(C):
