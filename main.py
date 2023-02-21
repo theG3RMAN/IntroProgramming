@@ -9,7 +9,7 @@ print("\t\Welcome to my Weather Forecast App!\n\n")
 print("Please enter your Zip Code next and get Current Temps and a 3 Day Forecast!\n\n")
 base_url = "https://api.openweathermap.org/data/2.5/weather"
 appid = "338cc5271d9fc6f08df4e25459c6a953"
-city = int(input("Enter Zip Code : \n"))
+city = int(input("Enter State : \n"))
 
 url = f"{base_url}?q={city}&units=imperial&APPID={appid}"
 print(url)
